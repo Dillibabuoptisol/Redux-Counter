@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import allRedux from '../reducers/index';
+import allReducers from './reducers/Index';
 import { createStore, combineReducers } from 'redux';
 
-const store = createStore(allRedux);
+const store = createStore(allReducers);
 
 ReactDOM.render(
   <App />,
