@@ -5,4 +5,4 @@ const LoggedReducers = (state = false, action) => {
   }
 };
 
-export default LoggedReducers;
+export default { LoggedReducers };
