@@ -8,6 +8,5 @@ const store = createStore(allReducers);
 
 ReactDOM.render(
   <App />,
-
   document.getElementById('root')
 );
